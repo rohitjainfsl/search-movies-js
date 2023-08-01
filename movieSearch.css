@@ -6,7 +6,7 @@
     font-weight: 400;
 }
 h1,h2,h3,h4,h5,h6{
-    font-weight: 700;
+    font-weight: bold;
 }
 header{
     background-color: #3b5998;
@@ -19,6 +19,14 @@ header{
 }
 section{
     padding: 1rem 3rem;
+}
+img:hover{
+    /* box-shadow: 5px 5px rgb(78, 55, 55); */
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 5px solid black;
+
+    border-radius: 10px;
 }
 #search form {
     display: flex;
