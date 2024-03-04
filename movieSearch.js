@@ -3,7 +3,7 @@ const movieName = document.querySelector("input");
 form.onsubmit = (e) => {
   e.preventDefault();
   fetch(
-    "https://api.themoviedb.org/3/search/movie?api_key=8125db8f67d23da1d30f6063b1b794b8&language=en-US&query=" +
+    "https://api.themoviedb.org/3/search/movie?api_key="+API_KEY+"&language=en-US&query=" +
       movieName.value +
       "&page=1&include_adult=false"
   )
